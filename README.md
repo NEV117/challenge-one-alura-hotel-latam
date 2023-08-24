@@ -4,7 +4,10 @@
 
 Este proyecto es un sistema básico de gestión de reservas para un hotel.
 
-El usuario es *admin* y la contraseña es *admin*
+Usuarios de Prueba:
+*admin* y la contraseña es *123*
+*Administrador* y la contraseña es *123qwe*
+*Nico* y la contraseña es *123*
 
 ---
 ## ⚒ Tecnologías Utilizadas:
@@ -16,22 +19,20 @@ El usuario es *admin* y la contraseña es *admin*
 - Biblioteca JCalendar
 - Maven
 - MySql
-- Hibernate
+- JPA: Hibernate
 - Plugin WindowBuilder
 
 ---
 
 ## 📁 Estructura de directorios:
 - src/main/java: Carpeta base donde se guarda el código del proyecto.
-- src/test/java: Carpeta donde se guardan las pruebas (o tests) del proyecto.
-- imagenes:  Las imágenes para este documento.
-- src/main/resources: Se guardan recursos como los iconos.
+- imagenesReadme:  Las imágenes para el readme.
+- src/main/resources: Se guardan recursos como META-INF.
 
 ---
 
 ## 📦 Los paquetes en /src/main/java:
-- com.alura.hotel.views:  Agrupa las interfaces gráfica hechas con WindowBuilder.
-- com.alura.hotel.controller: Agrupa controladores.
+- views:  Agrupa las interfaces gráfica hechas con WindowBuilder.
 - com.alura.hotel.models: Agrupa los modelos.
 - com.alura.hotel.dao:  Agrupa las operaciones de acceso a base de datos.
 - com.alura.hote.utils: Agrupa utilitarios.
@@ -49,61 +50,48 @@ El usuario es *admin* y la contraseña es *admin*
 ## 💾 Diagrama de la base de datos
 
 <p align="center">
-<img src="imagenes/base-de-datos.png">
+<img  src="imagesReadme/entidad-relacion-hotel-alura.png">
+</p>
+
+## 💾  Adicion de Modelo de usuarios con contraseñas cifradas
+
+
+<p align="center">
+<img src="imagesReadme/UauriosModel.JPG">
+</p>
+
+### Usuarios de Prueba:
+
+
+| Usuario            | Contraseña               |
+| -------------------|--------------------------|
+| admin              |           123            |
+| Administrador      |           123qwe         |
+| Nico               |           123            |
+
+
+
+---
+
+##  Overview
+<p align="center">
+<img  src="imagesReadme/HotelAlura30seg.gif">
 </p>
 
 ---
 
-##  Menu Principal
+## Registros Reserva/Huesped
+
 <p align="center">
-<img src="imagenes/menu-principal.png">
+<img src="imagesReadme/Reservas-30-seg.gif">
 </p>
 
 ---
 
-## Login
-El usuario es "admin" y la contraseña es "admin"
-<p align="center">
-<img src="imagenes/login.png">
-</p>
-
----
-
-## Menú Usuario
-<p align="center">
-<img src="imagenes/menu-usuario.png">
-</p>
-
----
-
-## Registrar Reserva
+## Búsqueda Por Columnas
 
 <p align="center">
-<img src="imagenes/registro-reserva.png">
-</p>
-
----
-
-## Registro Huésped
-
-<p align="center">
-<img src="imagenes/registro-huesped.png">
-</p>
-
----
-
-## Búsqueda Reserva
-
-<p align="center">
-<img src="imagenes/busqueda-reserva.png">
-</p>
-
----
-
-## Búsqueda Huésped
-
-<p align="center">
-<img src="imagenes/busqueda-huesped.png">
+<img src="imagesReadme/Filtros30seg.gif">
 </p>
 
 ---
@@ -111,14 +99,21 @@ El usuario es "admin" y la contraseña es "admin"
 ## Editar Reservas
 
 <p align="center">
-<img src="imagenes/editar-reserva.png">
+<img src="imagesReadme/Reservas-Edit.gif">
 </p>
 
 ---
 
 ## Editar Huésped
 <p align="center">
-<img src="imagenes/editar-huesped.png">
+<img src="imagesReadme/Huespedes-Edit.gif">
+</p>
+
+---
+
+## Eliminar Huésped/Reserva
+<p align="center">
+<img src="imagesReadme/Delete.gif">
 </p>
 
 ---
