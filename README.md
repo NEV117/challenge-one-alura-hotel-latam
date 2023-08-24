@@ -4,10 +4,8 @@
 
 Este proyecto es un sistema básico de gestión de reservas para un hotel.
 
-Usuarios de Prueba:
-*admin* y la contraseña es *123*
-*Administrador* y la contraseña es *123qwe*
-*Nico* y la contraseña es *123*
+Es la resolución del desafío del Challenge de creación de un sistema de reserva para el Hotel Alura, impartido por el Programa Oracle One en coordinación con Alura Latinoamérica.
+
 
 ---
 ## ⚒ Tecnologías Utilizadas:
@@ -18,7 +16,7 @@ Usuarios de Prueba:
 - Swing
 - Biblioteca JCalendar
 - Maven
-- MySql
+- MySql 
 - JPA: Hibernate
 - Plugin WindowBuilder
 
@@ -43,7 +41,6 @@ Usuarios de Prueba:
 ---
 
 ## 🎥 Video de la aplicación
-###  https://youtu.be/jvI2cJ84qhE
 
 ---
 
@@ -53,7 +50,7 @@ Usuarios de Prueba:
 <img  src="imagesReadme/entidad-relacion-hotel-alura.png">
 </p>
 
-## 💾  Adicion de Modelo de usuarios con contraseñas cifradas
+## 💾 Modelo de Usuarios con contraseñas cifradas
 
 
 <p align="center">
